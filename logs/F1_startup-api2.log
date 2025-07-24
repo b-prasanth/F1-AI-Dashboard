@@ -1,0 +1,1187 @@
+Traceback (most recent call last):
+  File "/Users/prasanthbalaji/Desktop/F1_Project/api/api2.py", line 15, in <module>
+    from backend import f1_func, queries, sql_runner as sr
+  File "/Users/prasanthbalaji/Desktop/F1_Project/backend/f1_func.py", line 4, in <module>
+    import queries as queries
+ModuleNotFoundError: No module named 'queries'
+INFO:     Started server process [47770]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:63952 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:63951 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:63952 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63949 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:63962 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:63952 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:63946 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:63948 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:63946 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:63952 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:     127.0.0.1:63992 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:63992 - "GET /api/years HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63999 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64001 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:63995 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:64003 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:64004 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 2015
+INFO:__main__:Fetching qualifying results for year: 2015
+INFO:__main__:Fetching drivers standings for year: 2015
+INFO:__main__:Fetching constructors standings for year: 2015
+INFO:__main__:Fetching race results for year: 2015
+INFO:__main__:Successfully fetched constructors standings for 2015.
+INFO:__main__:Successfully fetched drivers standings for 2015.
+INFO:     127.0.0.1:64022 - "GET /api/standings/constructors/2015 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64021 - "GET /api/standings/drivers/2015 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2015 from database.
+INFO:     127.0.0.1:64018 - "GET /api/calendar/2015 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2015.
+INFO:     127.0.0.1:64024 - "GET /api/results/race/2015 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2015.
+INFO:     127.0.0.1:64025 - "GET /api/results/qualifying/2015 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:64053 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:64055 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:64051 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:64063 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:64053 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:64055 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:64050 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:64048 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:64055 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:64050 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [47770]
+INFO:     Started server process [50591]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:64200 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64198 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:64196 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:64200 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:64198 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:64209 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:64193 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:64195 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:64209 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:64193 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [50591]
+INFO:     Started server process [51658]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:64361 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64359 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:64357 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:64361 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:64370 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:64359 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:64354 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:64356 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:64359 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:64354 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:     127.0.0.1:64505 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:     127.0.0.1:64505 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:64514 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:64512 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64508 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:64516 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64517 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [51658]
+INFO:     Started server process [54586]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:64622 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:64620 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:64619 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:64622 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:64631 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:64620 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:64613 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:64617 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:64613 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64620 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [54586]
+INFO:     Started server process [55424]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:64726 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64729 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:64725 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:64729 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:64726 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:64738 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:64722 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:64720 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:64738 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:64722 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [55424]
+INFO:     Started server process [59228]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:65236 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:65234 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:65232 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Fetching calendar for year: 2025
+INFO:     127.0.0.1:65236 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:65245 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:65234 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:65229 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:__main__:Fetching race results for year: 2025
+INFO:     127.0.0.1:65231 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:65261 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65264 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [59228]
+INFO:     Started server process [59800]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [59800]
+INFO:     Started server process [60846]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [60846]
+INFO:     Started server process [66264]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [66264]
+INFO:     Started server process [71363]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [71363]
+INFO:     Started server process [72727]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [72727]
+INFO:     Started server process [76018]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [76018]
+INFO:     Started server process [90397]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:51943 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51945 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:51941 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:51945 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:51943 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:51955 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:51939 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:51937 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:51955 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025, grand_prix: Australian Grand Prix
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:51939 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51955 - "GET /api/race_results/2025/Australian%20Grand%20Prix HTTP/1.1" 200 OK
+INFO:__main__:Fetching driver stats for driver_id: NOR
+INFO:     127.0.0.1:51997 - "GET /api/driver_stats/NOR HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90397]
+INFO:     Started server process [2032]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:__main__:Fetching available years.
+INFO:     127.0.0.1:52882 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching race results for year: 2025
+INFO:     127.0.0.1:52887 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:52893 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:52891 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:52882 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:52896 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:52895 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2032]
+INFO:     Started server process [10477]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:53741 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53739 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:53737 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:53741 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:53739 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:53750 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:53732 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:53735 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:53750 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:53732 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching driver stats for driver_id: NOR
+INFO:     127.0.0.1:53781 - "GET /api/driver_stats/NOR HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10477]
+INFO:     Started server process [16769]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:55283 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55280 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:55279 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:55283 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55280 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:55293 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:55274 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:55277 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:55293 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55274 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching team stats for constructor: McLaren
+INFO:     127.0.0.1:55320 - "GET /api/team_stats/McLaren HTTP/1.1" 200 OK
+INFO:__main__:Fetching team stats for constructor: McLaren
+INFO:     127.0.0.1:55345 - "GET /api/team_stats/McLaren HTTP/1.1" 200 OK
+INFO:__main__:Fetching team stats for constructor: McLaren
+INFO:     127.0.0.1:55365 - "GET /api/team_stats/McLaren HTTP/1.1" 200 OK
+INFO:__main__:Fetching team stats for constructor: McLaren
+INFO:     127.0.0.1:55385 - "GET /api/team_stats/McLaren HTTP/1.1" 200 OK
+INFO:__main__:Fetching team stats for constructor: McLaren
+INFO:     127.0.0.1:55405 - "GET /api/team_stats/McLaren HTTP/1.1" 200 OK
+INFO:__main__:Fetching driver stats for driver_id: PIA
+INFO:     127.0.0.1:55425 - "GET /api/driver_stats/PIA HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:55497 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:55494 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:55493 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:55506 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55497 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:55494 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:55491 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:55489 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:55494 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:55491 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:     127.0.0.1:55491 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:     127.0.0.1:55494 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:55497 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55489 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:55491 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:55493 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55506 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:55550 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:55548 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:     127.0.0.1:55546 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:55550 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55548 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55565 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:55543 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:     127.0.0.1:55541 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:55543 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55565 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching driver stats for driver_id: PIA
+INFO:     127.0.0.1:55592 - "GET /api/driver_stats/PIA HTTP/1.1" 200 OK
+INFO:__main__:Fetching team stats for constructor: McLaren
+INFO:     127.0.0.1:55592 - "GET /api/team_stats/McLaren HTTP/1.1" 200 OK
+INFO:__main__:Fetching team stats for constructor: Red Bull Racing
+INFO:     127.0.0.1:55592 - "GET /api/team_stats/Red%20Bull%20Racing HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:     127.0.0.1:55650 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:     127.0.0.1:55650 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:55657 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:55653 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55659 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:55661 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:55662 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 1950
+INFO:__main__:Fetching drivers standings for year: 1950
+INFO:__main__:Fetching constructors standings for year: 1950
+INFO:__main__:Fetching race results for year: 1950
+INFO:__main__:Fetching qualifying results for year: 1950
+WARNING:backend.sql_runner:No data found for constructors_championship
+WARNING:__main__:No constructors standings found for 1950.
+INFO:     127.0.0.1:55688 - "GET /api/standings/constructors/1950 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched drivers standings for 1950.
+INFO:__main__:Successfully fetched calendar for 1950 from database.
+INFO:     127.0.0.1:55687 - "GET /api/standings/drivers/1950 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55685 - "GET /api/calendar/1950 HTTP/1.1" 200 OK
+WARNING:backend.sql_runner:No data found for qualifying_results
+INFO:backend.f1_func:No quali results available for 1950
+WARNING:__main__:No qualifying results found for 1950.
+INFO:     127.0.0.1:55691 - "GET /api/results/qualifying/1950 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 1950.
+INFO:     127.0.0.1:55690 - "GET /api/results/race/1950 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 1950, grand_prix: British Grand Prix
+INFO:     127.0.0.1:55702 - "GET /api/race_results/1950/British%20Grand%20Prix HTTP/1.1" 200 OK
+INFO:__main__:Fetching driver stats for driver_id: farina
+INFO:     127.0.0.1:55705 - "GET /api/driver_stats/farina HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [16769]
+INFO:     Started server process [28995]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:     Started server process [36457]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:57429 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57424 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57427 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:57429 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57424 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57442 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:57420 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57422 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:57420 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57442 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025, grand_prix: Australian Grand Prix
+INFO:     127.0.0.1:57468 - "GET /api/race_results/2025/Australian%20Grand%20Prix HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:     127.0.0.1:57499 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:     127.0.0.1:57499 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:57502 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57506 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57508 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:57510 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:57511 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025, grand_prix: British Grand Prix
+INFO:     127.0.0.1:57537 - "GET /api/race_results/2025/British%20Grand%20Prix HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:58141 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:58137 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58139 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:58137 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58141 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58157 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:58134 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58136 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:58157 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58134 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:     127.0.0.1:58134 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:     127.0.0.1:58157 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:58136 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58141 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58134 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:58137 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58139 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:58195 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:58199 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 2025
+INFO:     127.0.0.1:58197 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:58195 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58211 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58197 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58193 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:58190 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58197 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:58193 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:     127.0.0.1:58230 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:     127.0.0.1:58230 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:58240 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:58238 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:58233 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:58242 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58241 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:     127.0.0.1:58241 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:     127.0.0.1:58242 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:58238 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58233 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58241 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:58230 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58240 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:58238 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:     127.0.0.1:58241 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58233 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:58238 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:58279 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58241 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:58240 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58230 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:58241 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58240 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:58309 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58307 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58311 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:58309 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58323 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58307 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58302 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58305 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58307 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58323 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:58305 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:58302 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58309 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:58305 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58302 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58311 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:58323 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58307 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:58311 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58323 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:     127.0.0.1:58366 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:     127.0.0.1:58366 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:58375 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58369 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58373 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:58377 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58378 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:58437 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58439 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58434 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:58437 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58439 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58453 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58433 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:58430 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58453 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:58433 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching team stats for constructor: McLaren
+INFO:     127.0.0.1:58433 - "GET /api/team_stats/McLaren HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:58505 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:58500 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58502 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:58517 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:58505 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58500 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:58497 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58498 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:58500 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58497 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:     127.0.0.1:58536 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:     127.0.0.1:58536 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:58543 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58539 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:58545 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58548 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:58547 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:58545 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:58543 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 2025
+INFO:     127.0.0.1:58539 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:58536 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58545 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58543 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:58547 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58548 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:58543 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58547 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025, grand_prix: Australian Grand Prix
+INFO:     127.0.0.1:58547 - "GET /api/race_results/2025/Australian%20Grand%20Prix HTTP/1.1" 200 OK
+INFO:__main__:Fetching driver stats for driver_id: NOR
+INFO:     127.0.0.1:58591 - "GET /api/driver_stats/NOR HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:     127.0.0.1:58613 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:     127.0.0.1:58613 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:58622 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:58616 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58620 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:58624 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58625 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching driver stats for driver_id: NOR
+INFO:     127.0.0.1:58625 - "GET /api/driver_stats/NOR HTTP/1.1" 200 OK
+INFO:__main__:Fetching team stats for constructor: McLaren
+INFO:     127.0.0.1:58658 - "GET /api/team_stats/McLaren HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:58726 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58724 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:58722 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:58735 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58726 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:58724 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58719 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58721 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:58724 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58719 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching team stats for constructor: Red Bull Racing
+INFO:     127.0.0.1:58767 - "GET /api/team_stats/Red%20Bull%20Racing HTTP/1.1" 200 OK
+INFO:__main__:Fetching driver stats for driver_id: NOR
+INFO:     127.0.0.1:58787 - "GET /api/driver_stats/NOR HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:     127.0.0.1:58809 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Fetching available years.
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:     127.0.0.1:58809 - "GET /api/years HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:58818 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58812 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58816 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:58820 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:58821 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 1950
+INFO:__main__:Fetching drivers standings for year: 1950
+INFO:__main__:Fetching constructors standings for year: 1950
+INFO:__main__:Fetching race results for year: 1950
+INFO:__main__:Fetching qualifying results for year: 1950
+INFO:__main__:Successfully fetched drivers standings for 1950.
+INFO:     127.0.0.1:58838 - "GET /api/standings/drivers/1950 HTTP/1.1" 200 OK
+WARNING:backend.sql_runner:No data found for constructors_championship
+WARNING:__main__:No constructors standings found for 1950.
+INFO:     127.0.0.1:58839 - "GET /api/standings/constructors/1950 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 1950 from database.
+INFO:     127.0.0.1:58836 - "GET /api/calendar/1950 HTTP/1.1" 200 OK
+WARNING:backend.sql_runner:No data found for qualifying_results
+INFO:backend.f1_func:No quali results available for 1950
+WARNING:__main__:No qualifying results found for 1950.
+INFO:     127.0.0.1:58842 - "GET /api/results/qualifying/1950 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched race results for 1950.
+INFO:     127.0.0.1:58841 - "GET /api/results/race/1950 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 1950, grand_prix: British Grand Prix
+INFO:     127.0.0.1:58853 - "GET /api/race_results/1950/British%20Grand%20Prix HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:     127.0.0.1:59036 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:__main__:Fetching constructors standings for year: 2025
+INFO:     127.0.0.1:59034 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching drivers standings for year: 2025
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:59033 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching calendar for year: 2025
+INFO:__main__:Successfully fetched constructors standings for 2025.
+INFO:__main__:Successfully fetched drivers standings for 2025.
+INFO:     127.0.0.1:59036 - "GET /api/standings/constructors/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59045 - "GET /api/standings/drivers/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched calendar for 2025 from database.
+INFO:     127.0.0.1:59034 - "GET /api/calendar/2025 HTTP/1.1" 200 OK
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:     127.0.0.1:59031 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching qualifying results for year: 2025
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:59030 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:__main__:Fetching race results for year: 2025
+INFO:__main__:Successfully fetched qualifying results for 2025.
+INFO:__main__:Successfully fetched race results for 2025.
+INFO:     127.0.0.1:59034 - "GET /api/results/qualifying/2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59031 - "GET /api/results/race/2025 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [36457]
