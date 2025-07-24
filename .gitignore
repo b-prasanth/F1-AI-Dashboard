@@ -1,0 +1,35 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+/.idea/
+
+# Editor-based HTTP client requests
+/httpRequests/
+
+# Datasource local storage ignored files
+/dataSources/
+/dataSources_local.xml
+
+# Frontend
+/f1-ui/node_modules/
+/f1-ui/public/images/  # Remove if these are versioned assets
+
+# Logs and environment
+/logs/
+/.env
+/venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+build/
+dist/
+*.egg-info/
+
+# OS/Editor files
+*.swp
+.DS_Store
