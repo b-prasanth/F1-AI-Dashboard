@@ -6,3 +6,6 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+/f1-ui/node_modules
+/f1-ui/public/images
+/logs
