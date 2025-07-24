@@ -12,7 +12,7 @@
 
 # Frontend
 /f1-ui/node_modules/
-/f1-ui/public/images/  # Remove if these are versioned assets
+
 
 # Logs and environment
 /logs/
