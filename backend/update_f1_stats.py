@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # Enable FastF1 caching
-fastf1.Cache.enable_cache('/Users/prasanthbalaji/desktop/Java Projects/F1/pythonProject/cache')
+fastf1.Cache.enable_cache('/Users/prasanthbalaji/Desktop/F1_Project/backend/Cache')
 
 # Points systems
 RACE_POINTS_SYSTEM = {1: 25, 2: 18, 3: 15, 4: 12, 5: 10, 6: 8, 7: 6, 8: 4, 9: 2, 10: 1}
