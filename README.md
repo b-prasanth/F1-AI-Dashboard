@@ -10,15 +10,15 @@ This project combines a Python backend for data processing and AI modeling with 
 
 - **Backend:** Python
 - **Frontend:** React (within `f1-ui`)
-- **Database:** (To be added if applicable, e.g., SQL/NoSQL)
-- **AI/ML:** XGBoost (referenced in codebase), RAG implementation
+- **Database:** SQL Database (MySQL)
+- **AI/ML:** XGBoost, RAG implementation
 
 ## Project Structure
 
 - `backend/`: Contains the Python backend code, models, and data processing scripts.
+- `api/`: Contains the FastAPI/backend server endpoints (`api1.py`, `api2.py`, `api3.py`).
 - `f1-ui/`: Contains the React frontend application.
-- `app.py`: Main entry point for the backend application? (Verify this)
-- `F1_startup.sh`: Startup script for the project.
+- `F1_startup.sh`: Startup script for the project, which launches backend services and the frontend.
 
 ## Setup Instructions
 
