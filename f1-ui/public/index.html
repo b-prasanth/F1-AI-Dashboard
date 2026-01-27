@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>F1 Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: linear-gradient(135deg,
+        rgba(220, 38, 38, 0.1) 0%,
+        rgba(0, 0, 0, 0.8) 50%,
+        rgba(220, 38, 38, 0.1) 100%
+      ),
+       url('https://www.google.com/imgres?imgurl=https://t3.ftcdn.net/jpg/05/57/73/76/360_F_557737678_q7gcljCgo5BzKfXYjn9Zw8XrSW8RNPsV.jpg&tbnid=Uhe9zaZ82puSPM&vet=1&imgrefurl=https://stock.adobe.com/search?k%3Df1%2Bracing&docid=e5_qKh-QAQKOJM&w=690&h=360&source=sh/x/im/m1/1&kgs=3e4c17c3b9a8581b');
+           margin: 0;
+      min-height: 100vh;
+    }
+
+    /* Fallback if the image doesn't load */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg,
+        #dc2626 0%,
+        #000000 50%,
+        #dc2626 100%
+      );
+      z-index: -2;
+    }
+
+    /* Racing track pattern overlay */
+    body::after {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image:
+        repeating-linear-gradient(
+          45deg,
+          transparent,
+          transparent 10px,
+          rgba(255, 255, 255, 0.02) 10px,
+          rgba(255, 255, 255, 0.02) 20px
+        );
+      z-index: -1;
+    }
+    
+    /* Style tables and containers to match background */
+    .bg-white, .max-w-6xl, .max-w-4xl, table {
+      background-color: rgba(20, 20, 20, 0.8) !important;
+      color: #f0f0f0 !important;
+      border-color: #dc2626 !important;
+    }
+    
+    /* Table headers */
+    thead.bg-gray-200 {
+      background-color: rgba(220, 38, 38, 0.8) !important;
+      color: white !important;
+    }
+    
+    /* Table rows */
+    tbody tr {
+      border-color: rgba(220, 38, 38, 0.3) !important;
+    }
+    
+    /* Home page cards */
+    .bg-gradient-to-br {
+      background: linear-gradient(135deg, rgba(30, 30, 30, 0.9), rgba(50, 50, 50, 0.9)) !important;
+      border-color: #dc2626 !important;
+    }
+    
+    /* Make dropdown text black */
+    select {
+      color: black !important;
+    }
+  </style>
+</head>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root" className="min-h-screen bg-gray-100"></div>
+</body>
+</html>
