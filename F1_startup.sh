@@ -9,6 +9,9 @@ if [ "$action" == "start" ]; then
   # Create logs directory if it doesn't exist
   mkdir -p logs
 
+  # Activate venv
+  source venv/bin/activate
+
   # Start F1 data update and Plot Generation
   cd backend
   python update_f1_stats.py >> ../logs/F1_startup_f1-data-update.log 2>&1 &
